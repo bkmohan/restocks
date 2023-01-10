@@ -1,0 +1,76 @@
+article{
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.load-more--btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    cursor: pointer;
+    color: rgb(39, 38, 38);
+    font-size: 16px;
+    font-weight: 700;
+    height: 3.5rem;
+    border-radius: 4px;
+    background-color: #ebe9e9;
+}
+
+
+
+.page-size{
+    height: 1.5rem;
+    width: 4rem;
+    border: 1px solid #646262;
+    border-radius: 4px;
+    outline: none;
+}
+
+.count{
+    width: 100%;
+    text-align: right;
+    color: #212529;
+    font-size: 14px;
+}
+
+.search-info{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.search-text{
+    font-weight: 600;
+}
+
+
+
+.product-name{
+    font-size: 13px;
+    color: #666;
+    margin: 0.5rem 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.product-sku{
+    color: #111;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem
+}
+
+.product-image{
+    width: 100%;
+}

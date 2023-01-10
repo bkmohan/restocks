@@ -1,0 +1,102 @@
+body, html {
+    background-color: #f9f9fa;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    margin: 0;
+    position: relative;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.header-title{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.home-icon{
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:visited {
+    text-decoration: none;
+  }
+
+.logo{
+    width: 5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.header h1{
+    margin: 0;
+    color: white;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    background-color: white;
+    
+}
+
+.search-form{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: white;
+}
+
+.search-input{
+    width: 100%;
+    height: 2rem;
+    font-size: 14px;
+    padding-right: 2rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid wheat;
+}
+
+.search-icon{
+    cursor: pointer;
+}
+
+.search-button{
+    background-color: transparent;
+    margin-left: -2.5rem;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clear-search{
+    cursor: pointer;
+    height: 1.5rem;
+    color: rgb(65, 60, 60);
+    background-color: transparent;
+    outline: none;
+    border: 1px solid wheat;
+    border-radius: 2px;
+}
+
+.body{
+    padding: 1rem 6rem;
+    align-items: center;
+}
+
